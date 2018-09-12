@@ -1,0 +1,463 @@
+    1  ls
+    2  cd /opt
+    3  ls
+    4  java -jar jenkins.war httpPort=8081
+    5  ls
+    6  java -jar jenkins.war httpPort=8085
+    7  java -jar jenkins.war httpPort=8081
+    8  java -jar jenkins.war httpPort=8083
+    9  java -jar jenkins.war httpPort=8089
+   10  ls
+   11  top
+   12  java -jar jenkins.war httpsPort=8089
+   13  pwd
+   14  ls
+   15  java -jar jenkins.war httpsPort=8089
+   16  netstat -ano | find "8080"
+   17  sudo netstat -ano | find "8080"
+   18  sudo netstat -ano | find "8089"
+   19  netstat -p
+   20  cd /opt
+   21  sudo wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+   22  java -jar jenkins.war --httpPort=8085
+   23  cd /opt
+   24  ls
+   25  java -jar jenkins.war --httpPort=8085
+   26  docker -version
+   27  whereis .jenkins
+   28  cd usr
+   29  cd /user
+   30  clear
+   31  cd etc
+   32  cd /etc
+   33  ls
+   34  cd /target
+   35  cd ~
+   36  cd /target
+   37  cd /user
+   38  cd /usr
+   39  ls
+   40  cd etc
+   41  cd ..
+   42  where is jenkins
+   43  whereis jenkins
+   44  cd /jenkins
+   45  cd ..
+   46  cd /jenkins
+   47  cd /var
+   48  ls
+   49  cd /lib
+   50  ls
+   51  clear
+   52  cd /opt
+   53  ls
+   54  cd ..
+   55  cd /var
+   56  ls
+   57  cd lib
+   58  ls
+   59  cd ~
+   60  cd /opt
+   61  java -jar jenkins.war --httpPort=8086
+   62  ls
+   63  cd ~
+   64  ls
+   65  cd /usr
+   66  ls
+   67  cd src
+   68  ls
+   69  cd ..
+   70  cd bin
+   71  ls
+   72  clear
+   73  cd ..
+   74  ls
+   75  cd lib64
+   76  ls
+   77  clear
+   78  cd ..
+   79  ls
+   80  cd etc
+   81  ls
+   82  ls -la
+   83  cd /usr
+   84  ls
+   85  cd /etc
+   86  ls
+   87  echo $JENKINS_HOME
+   88  cd /home/ec2-user/.jenkins/workspace/jPetStore/target/
+   89  ls
+   90  cd ~
+   91  cd /opt
+   92  ls
+   93  docker container run hello-world
+   94  sudo -i
+   95  docker container run hello-world
+   96  cd /home/ec2-user/.jenkins/workspace/jPetStore/
+   97  ls
+   98  sudo docker images
+   99  sudo docker exec -it 833e67323082 bash
+  100  docker ps -a
+  101  sudo docker ps -a
+  102  sudo docker exec -it 847686903d25 bash
+  103  cd /opt
+  104  ls
+  105  java -jar jenkins.war --httpPort=8085
+  106  pwd
+  107  cd /home/ec2-user/.jenkins/workspace/jPetStore/
+  108  ls
+  109  vi Dockerfile 
+  110  pwd
+  111  cd ~
+  112  cd /opt
+  113  ls
+  114  java -jar jenkins.war --httpPort=8085
+  115  cd /opt
+  116  ls
+  117  java -jar jenkins.war --httpPort=8085
+  118  cd /opt
+  119  java -jar jenkins.war httpPort=8085
+  120  sudo yum update
+  121  cd /opt
+  122  java -jar jenkins.war --httpPort=8085
+  123  cd /home/ec2-user/.jenkins/workspace/jpetstoretest/target/surefire
+  124  cd /home/ec2-user/.jenkins/workspace/jpetstoretest/target/surefire/
+  125  cd /home/ec2-user/.jenkins/workspace/jpetstoretest/target
+  126  ls
+  127  cd ..
+  128  ls
+  129  cd jpetstore
+  130  cd jPetStore
+  131  ls
+  132  sudo vi Dockerfile 
+  133  docker -v
+  134  cd /opt
+  135  ls
+  136  java -jar jenkins.war
+  137  java -jar jenkins.war --httpPort=8085
+  138  sudo docker images
+  139  cd /opt
+  140  ls
+  141  java -jar jenkins.war --httpPort=8085
+  142  cd /opt
+  143  java -jar jenkins.war --httpPort=8085
+  144  cd /opt
+  145  ls
+  146  cd .jenkins/
+  147  ls
+  148  cd ..
+  149  cd /maven
+  150  whereis maven
+  151  cd /opt
+  152  ls
+  153  cd /etc
+  154  ls
+  155  ls -la
+  156  ls -la | grep .m2
+  157  pwd
+  158  cd
+  159  ls -la | grep .m2
+  160  ls -la
+  161  cd .m2
+  162  ls
+  163  ps -ef | grep "setttings"
+  164  ps -ef | grep "settings"
+  165  ps -ef | grep ".settings"
+  166  ls -la
+  167  cd repository/
+  168  ls -la
+  169  cd ../
+  170  ls
+  171  cd wrapper/
+  172  ls
+  173  cd dists/
+  174  ls
+  175  cd apache-maven-3.5.3-bin/
+  176  ls
+  177  cd ..
+  178  cd /home/ec2-user/
+  179  cd .m2
+  180  ls
+  181  sudo vi settings.xml
+  182  pwd
+  183  ls /opt/
+  184  ps -ef | grep "maven"
+  185  ps -ef | grep "mvn"
+  186  mvn -version
+  187  ls -la /usr/local/src/
+  188  ls -la /usr/local/src/apache-maven
+  189  ls -la /usr/local/src/apache-maven/conf/
+  190  vi /usr/local/src/apache-maven/conf/settings.xml 
+  191  ls
+  192  sudo vi settings.xml
+  193  ls
+  194  vi /usr/local/src/apache-maven/conf/settings.xml
+  195  git
+  196  git init
+  197  git commit -m "setting" setting.xml
+  198  sudo cp /usr/local/src/apache-maven/conf/settings.xml
+  199  sudo cp /usr/local/src/apache-maven/conf/settings.xml /home/ec2-user/settings2.xml
+  200  ls
+  201  cd ..
+  202  ls
+  203  git init
+  204  git commit -m "hi" settings2.xml
+  205  git add settings2.xml
+  206  git add remote origin https://github.com/Akanksha2810/FINAL.git
+  207  git add remote  origin https://github.com/Akanksha2810/FINAL.git
+  208  git remote add  origin https://github.com/Akanksha2810/FINAL.git
+  209  git commit -m "hi" settings2.xml
+  210  git push origin master
+  211  git push -u origin master
+  212  vi /usr/local/src/apache-maven/conf/settings.xml 
+  213  cd /opt
+  214  java -jar jenkins.war --httpPort=8085
+  215  cd .m2
+  216  ls
+  217  sudo vi settings.xml
+  218  cd src
+  219  cd /src
+  220  cd 
+  221  cd /src
+  222  cd src
+  223  cd user
+  224  cd /user
+  225  ls
+  226  cd /usr
+  227  cd local/
+  228  cd src
+  229  ls
+  230   cd apache-maven/
+  231  ls
+  232  cd conf/
+  233  ls
+  234  touch settings.xml 
+  235  sudo vi settings.xml 
+  236  pwd
+  237  ls -la
+  238  sudo vi settings.xml 
+  239  pwd
+  240  history
+  241  ls -la
+  242  cd ../
+  243  ls -la
+  244  cd ../
+  245  ls -la
+  246  pwd
+  247  tar xvfz apache-maven-3.5.4-bin.tar.gz 
+  248  sudo tar xvfz apache-maven-3.5.4-bin.tar.gz 
+  249  ls -la
+  250  sudo cd apache-maven-3.5.4/bin/
+  251  ls -la
+  252  sudo su
+  253  cd /opt
+  254  java -jar jenkins.war --httpPort=8085
+  255  cd /o[t
+  256  clear
+  257  cd /opt
+  258  ls
+  259  java -jar jenkins.war --httpPort=8085
+  260  cd /opt
+  261  ls
+  262  java -jar jenkins.war --httpPort=8085
+  263  cd /usr/local/src
+  264  ls
+  265  cd apache-maven
+  266  ls
+  267  cd conf
+  268  ls
+  269  sudo vi settings.xml 
+  270  cd /opt
+  271  ls
+  272  java -jar jenkins.war --httpPort=8085
+  273  sudo -i
+  274  sudo yum install ansible
+  275  sudo amazon-linux-extras install ansible2
+  276  ansible --version
+  277  sudo yum install python-pip
+  278  pip install boto
+  279  ls
+  280  cd /opt
+  281  ls
+  282  sudo rm -rf apache-tomcat-8.0.53
+  283  sudo rm -rf apache-tomcat-8.0.53.tar.gz 
+  284  ls
+  285  cd ..
+  286  ls
+  287  cd ~
+  288  cd/etc
+  289  ls
+  290  cd /etc
+  291  ls
+  292  cd ansible/
+  293  ls
+  294  ansible --version
+  295  sudo yum install epel-release -y
+  296  sudo vi /etc/ansible/hosts
+  297  sudo mkdir /etc/ansible/group_vars
+  298  sudo vi /etc/ansible/group_vars/servers
+  299  ansible –m ping all
+  300  ansible –m ping 
+  301  ansible –m ping client1
+  302  ls
+  303  sudo  rpm -iUvh http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-8.noarch.rpm
+  304  ansible --version
+  305  sudo ssh-keygen
+  306  su -i
+  307  sudo -i
+  308  sudo ssh-copy-id -i ec2-user@18.220.152.220
+  309  sudo ssh-copy-id -i ec2-user@172.31.38.88
+  310  sudo vi /etc/ssh/sshd_config
+  311  sudo service sshd restart
+  312  sudo service sshd status
+  313  sudo ssh-copy-id -i ec2-user@18.220.152.220
+  314  sudo ssh-copy-id -i ec2-user@172.31.38.88
+  315  cd .ssh/id_rsa root
+  316  cd .ssh
+  317  ls
+  318  ls -lart
+  319  sudo vi authorized_keys 
+  320  sudo chmod 777 authorized_keys 
+  321  ls -lart
+  322  sudo ssh-copy-id -i ec2-user@18.220.152.220
+  323  sudo ssh-copy-id -i ec2-user@172.31.38.88
+  324  sudo ssh-copy-id -i root@172.31.38.88
+  325  systemctl restart sshd
+  326  systemctl enable sshd
+  327  sudo service restart sshd
+  328  sudo vi /etc/ssh/sshd_config
+  329  sudo service sshd reload
+  330  sudo -i
+  331  sudo ssh -vvv root@172.31.38.88
+  332  sudo ssh root@172.31.38.88
+  333* 
+  334  sudo ssh root@172.31.38.88
+  335  ansible all -i 172.31.38.88, -m ping
+  336  cd /etc
+  337  cd ansible/
+  338  ls
+  339  sudo vi hosts 
+  340  ansible all -i 172.31.38.88, -m ping
+  341  sudo vi hosts 
+  342  ls
+  343  pwd
+  344  sudo chmod 777 hosts
+  345  sudo service sshd restart
+  346  ansible all -i 172.31.38.88, -m ping
+  347  sudo ansible all -i 172.31.38.88, -m ping
+  348  ssh-copy-id 172.31.44.27
+  349  ansible all -i 172.31.38.88, -m ping
+  350  sudo ssh-copy-id -i ec2-user@18.220.152.220
+  351  sudo ssh-copy-id -i ec2-user@172.31.38.88
+  352  cd ~
+  353  sudo ssh root@172.31.38.88
+  354  ansible-playbook test.yml
+  355  ls
+  356  sudo vi /etc/ansible/hosts 
+  357  ansible -m ping all
+  358  sudo vi /etc/ansible/hosts 
+  359  sudo yum install epel-release
+  360  ssh root@172.31.38.88
+  361  ssh-copy-id -i ec2-user@172.31.38.88
+  362  sudo yum remove ansible
+  363  rpm -Uvh https://d1.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  364  sudo yum install ansible
+  365  ls
+  366  ansible --version
+  367  ssh-keygen
+  368  ssh-copy-id ec2-user@172.31.38.88
+  369  ssh-copy-id root@172.31.38.88
+  370  ansible all -m ping
+  371  sudo vi /etc/ansible/hosts
+  372  #echo "172.31.x.x" > /etc/ansible.hosts
+  373  sudo vi /etc/ansible/hosts
+  374  ansible all -m ping
+  375  cd /etc
+  376  cd ansible/
+  377  ls
+  378  sudo vi hosts
+  379  ansible all -m ping
+  380  ansible all -m ping 'ansible_group'
+  381  ansible -m ping 'ansible_group'
+  382  sudo vi /etc/ssh/sshd_config 
+  383  sudo ansible -m ping 'ansible_group'
+  384  sudo vi hosts
+  385  sudo service sshd restart
+  386* 
+  387  ssh-copy-id root@172.31.38.88
+  388  ssh root@172.31.38.88
+  389  sudo vi hosts
+  390  sudo ansible -m ping 'ansible_group'
+  391  sudo vi hosts
+  392  ls
+  393  sudo vi /etc/ansible/inventory.txt
+  394  ls -lart
+  395  ansible all -m ping --ask-pass --ask-sudo-pass
+  396* 
+  397  ansible -m ping 'test-server'
+  398  sudo vi hosts
+  399  service sshd restart
+  400  sudo vi /etc/ansible/hosts 
+  401  ansible -m ping 'test-servers'
+  402  sudo vi /etc/ansible/hosts 
+  403  service sshd restart
+  404  ansible -m ping 'test-servers'
+  405  ls
+  406  sudo vi hosts.rpmsave 
+  407  sudo rm -rf hosts.rpmsave 
+  408  sudo chmod 777 hosts
+  409  service sshd restart
+  410  ansible -m ping 'test-servers'
+  411  sudo vi hosts
+  412  ansible -m ping 'test-servers'
+  413  sudo ansible -m ping 'test-servers'
+  414  sudo vi /etc/ssh/sshd_config 
+  415  cd ..
+  416  ls
+  417  cd ansible/
+  418  ls
+  419  cd ..
+  420  cd .ssh
+  421  cd /.ssh
+  422  cd ~
+  423  cd /.ssh
+  424  cd .ssh
+  425  ls
+  426  sudo vi id_rsa.pub 
+  427  sudo vi authorized_keys 
+  428  ls
+  429  sudo ansible -m ping 'test-servers'
+  430  cd ~
+  431  sudo ansible -m ping 'test-servers'
+  432   ansible -m ping 'test-servers'
+  433  sudo apt-get install sshpass
+  434  sudo yum install sshpass
+  435  ansible local -m ping --ask-pass
+  436  ansible -m ping --ask-pass
+  437  ansible all -m ping --ask-pass
+  438  cd /etc/ansible/
+  439  ls
+  440  sudo vi inventory.txt 
+  441  sudo chmod 755 inventory.txt 
+  442  ansible all -m ping --ask-pass
+  443  passwd
+  444  sudo passwd
+  445  ansible all -m ping --ask-pass
+  446  sudo vi inventory.txt 
+  447  ansible all -m ping --ask-pass
+  448  cd
+  449  ls
+  450  ls -la
+  451  sudo vi .ssh
+  452  cd .ssh
+  453  ls
+  454  sudo vi authorized_keys 
+  455  ls
+  456  sudo vi id_rsa
+  457  sudo vi id_rsa.pub 
+  458  sudo vi known_hosts 
+  459  history
+  460  history >abc.txt
+  461  ls
+  462  cd
+  463  history >ab2.txt
